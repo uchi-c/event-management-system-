@@ -1,0 +1,22 @@
+[31mfailed to load config from C:\Users\chilo\Downloads\Event Management System UI\vite.config.ts[39m
+node:internal/child_process:421
+    throw new ErrnoException(err, 'spawn');
+          ^
+
+Error: spawn EPERM
+    at ChildProcess.spawn (node:internal/child_process:421:11)
+    at Object.spawn (node:child_process:796:9)
+    at ensureServiceIsRunning (C:\Users\chilo\Downloads\Event Management System UI\node_modules\esbuild\lib\main.js:1978:29)
+    at build (C:\Users\chilo\Downloads\Event Management System UI\node_modules\esbuild\lib\main.js:1876:26)
+    at bundleConfigFile (file:///C:/Users/chilo/Downloads/Event%20Management%20System%20UI/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:49274:24)
+    at async bundleAndLoadConfigFile (file:///C:/Users/chilo/Downloads/Event%20Management%20System%20UI/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:49258:19)
+    at async loadConfigFromFile (file:///C:/Users/chilo/Downloads/Event%20Management%20System%20UI/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:49222:44)
+    at async resolveConfig (file:///C:/Users/chilo/Downloads/Event%20Management%20System%20UI/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:48718:24)
+    at async _createServer (file:///C:/Users/chilo/Downloads/Event%20Management%20System%20UI/node_modules/vite/dist/node/chunks/dep-DBxKXgDP.js:38329:18)
+    at async file:///C:/Users/chilo/Downloads/Event%20Management%20System%20UI/server.js:6:16 {
+  errno: -4048,
+  code: 'EPERM',
+  syscall: 'spawn'
+}
+
+Node.js v24.14.1
